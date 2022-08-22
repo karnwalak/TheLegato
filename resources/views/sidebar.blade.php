@@ -2,9 +2,10 @@
   <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
   <div class="pcoded-inner-navbar main-menu">
     <div class="">
-      <div class="main-menu-header">
+      <h3>Nimrat Walis's</h3>
+      {{-- <div class="main-menu-header">
         <img class="img-80" src="assets/images/logo.png" alt="User-Profile-Image">
-      </div>
+      </div> --}}
     </div>
     <ul class="pcoded-item pcoded-left-item">
       <li>

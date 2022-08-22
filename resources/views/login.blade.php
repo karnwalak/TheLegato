@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Material Able bootstrap admin template by Codedthemes</title>
+    <title>Nimrat Walia's</title>
     @include('headtags')
 </head>
 
@@ -72,7 +72,7 @@
                     <form class="md-float-material form-material" id="form">
                       @csrf
                         <div class="text-center">
-                            <img src="assets/images/logo.png" alt="logo.png" style="width:200px">
+                            <h1 style="font-family: sans-serif">Nimrat Walia's</h1>
                         </div>
                         <div class="auth-box card">
                             <div class="card-block">

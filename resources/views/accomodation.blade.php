@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Puzzles Admin</title>
+    <title>Nimrat Walia's</title>
     @include('headtags')
 </head>
 
