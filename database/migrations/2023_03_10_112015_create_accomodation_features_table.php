@@ -13,12 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('main_top_banners', function (Blueprint $table) {
+        Schema::create('accomodation_features', function (Blueprint $table) {
             $table->id();
-            $table->string('banner');
-            $table->string('link');
-            $table->string('type');
-            $table->bigInteger('position');
+            $table->unsignedBigInteger('accomadation_id');
+            $table->foreign('accomadation_id')->references('id')->on('accomodations')->onDelete('cascade');
+            $table->string('feature');
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('main_top_banners');
+        Schema::dropIfExists('accomodation_features');
     }
 };

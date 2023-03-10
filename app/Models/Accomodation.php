@@ -12,4 +12,8 @@ class Accomodation extends Model
     public function image(){
         return $this->hasMany(AccomadationImage::class,'accomadation_id');
     }
+
+    public function feature(){
+        return $this->hasMany(AccomadationFeature::class,'accomadation_id');
+    }
 }
